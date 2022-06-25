@@ -1,0 +1,19 @@
+.upper-website {
+    display: flex;
+    color: white;
+}
+
+.upper-left-side img{
+    width: 600px;
+    height: 700px;
+}
+
+.lower-website {
+    display:flex;
+    color: white;
+}
+
+.lower-left-side img{
+    width: 600px;
+    height: 700px;
+}

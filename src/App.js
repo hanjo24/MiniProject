@@ -2,6 +2,7 @@ import React from 'react'
 
 import { Header} from './containers';
 import { Navbar } from './components';
+import Websites from './components/body/Websites';
 import './App.css'
 
 const App = () => {
@@ -10,6 +11,10 @@ const App = () => {
         <div className='gradient_bg'>
           <Navbar />
           <Header />
+        </div>
+
+        <div>
+          <Websites />
         </div>
       
     </div>
