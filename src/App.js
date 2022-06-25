@@ -6,6 +6,8 @@ import { Reviews } from './components';
 import Websites from './components/body/Websites';
 import Slider from './components/Slider/Slider';
 import { SliderData } from './components/Slider/SliderData';
+import Technology from './components/body/technology'
+import Profilecards from './components/team/profilecards';
 
 import './App.css'
 
@@ -20,10 +22,14 @@ const App = () => {
         <div>
           <Websites />
         </div>
-
+        <div>
+          <Technology/>
+        </div>
         <div>
           <Slider slides={SliderData} />
         </div>
+
+        <Profilecards/>
       
     </div>
   )
