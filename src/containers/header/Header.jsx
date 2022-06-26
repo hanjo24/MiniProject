@@ -11,7 +11,7 @@ const Header = () => {
         <p>Affordable, innovative, timely. With over 15 years of experience in software development and digital marketing, we plan, build and promote new applications so you don’t have to.</p>
         <div className='devlaza_header-content_input'>
           <input type="email" placeholder="Your email address" />
-          <button type='button'>Get Started</button>
+          <button type='button'>Get Quoute</button>
         </div>
         <div className='devlaza_header-content_people'>
           <img src={people} alt="people" />

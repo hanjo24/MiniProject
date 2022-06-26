@@ -3,6 +3,7 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 import logo from '../../image/logo.png';
 
+
 const Menu = () => (
         <>
         <p><a href='#home'>Home</a></p>
@@ -11,6 +12,7 @@ const Menu = () => (
         <p><a href='#contactus'>Contact Us</a></p>
         </>
 )
+
 // BEM - Block Element Modifier
 
 const Navbar = () => {
@@ -25,10 +27,10 @@ const Navbar = () => {
         <Menu />
         </div>
       </div>
-      <div className='devlaza_navbar-sign'>
+      {/* <div className='devlaza_navbar-sign'>
         <p>Sign in</p>
         <button type='button'>Sign up</button>
-      </div>
+      </div> */}
 
       {/* MOBILE NAVBAR */}
 
@@ -41,10 +43,11 @@ const Navbar = () => {
           <div className='devlaza_navbar-menu_container scale-up-center'>
             <div className='devlaza_navbar-menu_container-links'>
             <Menu />
-            <div className='devlaza_navbar-menu_container-links-sign'>
+            {/* Sign in - Sign up Button */}
+            {/* <div className='devlaza_navbar-menu_container-links-sign'>
               <p>Sign in</p>
               <button type='button'>Sign up</button>
-           </div>
+           </div> */}
             </div>
           </div>
         )}
