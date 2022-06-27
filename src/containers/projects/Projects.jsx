@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './project.css'
 import { Navbar } from '../../components';
 import * as React from 'react';

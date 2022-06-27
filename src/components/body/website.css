@@ -1,19 +1,118 @@
+:root {
+    --color-1: #1A374D;
+    --color-2: #406882;
+    --color-3: #6998AB;
+    --color-4: #B1D0E0;
+    --color-white: #fff;
+    --color-black: #000;
+    
+}
+
+.website_body {
+    padding: 100px; 
+    
+}
+
 .upper-website {
     display: flex;
-    color: white;
+    gap: 30px;
+    margin-bottom: 50px;
+    transition: 1 ease-in-out;
+}
+
+.upper-right-side {
+  padding: 50px 0px 50px 50px;
+  text-align: justify;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.upper-website h2 {
+    color: var(--color-1);
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+.text1 {
+    color: var(--color-1);
 }
 
 .upper-left-side img{
+    border: 2px solid var(--color-1);
+    border-radius: 30px;
     width: 600px;
-    height: 700px;
+    height: 800px;
+    transition: .4s ease-in-out;
+}
+
+.upper-left-side img:hover {
+    position: relative;
+    border: 6px solid var(--color-1);
+    transform: scale(105%);
+    
 }
 
 .lower-website {
     display:flex;
-    color: white;
+    gap: 30px;
+    margin-bottom: 50px;
+    transition: 1 ease-in-out;
+    margin-bottom: 100px;
 }
 
 .lower-left-side img{
+    border: 2px solid var(--color-1);
+    border-radius: 30px;
     width: 600px;
-    height: 700px;
+    height: 800px;
+    transition: .4s ease-in-out;
+}
+
+.lower-left-side img:hover {
+    position: relative;
+    border: 6px solid var(--color-1);
+    transform: scale(105%);
+    
+}
+
+.lower-right-side {
+    padding: 50px 0px 50px 50px;
+    text-align: justify;
+}
+
+.lower-right-side h2 {
+    color: var(--color-1);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+.lower-right-side p {
+    font-size: 40px;
+}
+
+hr.style13 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px var(--color-2) inset;
+    margin-top: -20px;
+    margin-bottom: 100px;
+}
+
+hr.style14 {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px var(--color-2) inset;
+}
+
+@media (max-width: 1050px)
+{
+   .upper-website, .lower-website {
+        flex-direction: column;
+   }
+   
+  
 }

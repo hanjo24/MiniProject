@@ -13,78 +13,79 @@ import bgheader from '../../image/coverphoto.png';
 const Profilecards = () => {
   return (
     <div className='our-team'>
-      <div className='team-header' style={{ backgroundImage: `url(${bgheader})` }}>
-        <div className='team-header-desc'>
-      <h1 className='gradient_text'>THE DEVELOPELAZA</h1>
-      <p>We're lead by a team who constantly questions, tinkers, and challenges <br></br>to unlock great creativity around every turn.</p>
-      </div>
-    </div>
+        <div className='team-header' style={{ backgroundImage: `url(${bgheader})` }}>
+            <div className='team-header-desc'>
+                <h1 className='gradient_text'>THE DEVELOPELAZA</h1>
+                <p>We're lead by a team who constantly questions, tinkers, and challenges <br></br>to unlock great creativity around every turn.</p>
+            </div>
+        </div>
 
+    
         <div class="our-team-title">
-        <h1>MEET OUR TEAM</h1>
+          <h1>MEET OUR TEAM</h1>
         </div>
         <p className='description'>We are a team of solution-oriented IT specialists who bring digital transformation to your business and daily life. <br></br>
             We know how to translate ideas into custom software solutions meeting the priority needs of our clients.</p>
-    <div className='profiles'>
-        <div class = "container">
-    <div class = "card">
-      <div class = "image">
-        <img src ={profile1} alt="..."></img>
+        <div className='profiles'>
+            <div class = "container">
+                <div class = "card">
+                    <div class = "image">
+                      <img src ={profile1} alt="..."></img>
+                    </div>
+                    <div class = "content">
+                      <h3>WEB DEVELOPER</h3>
+                      <p>DIn publishing and graphic design,Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+                        <div className='links'>
+                            <a href='#'><img src={github} width="20px" alt="..."></img></a>
+                            <a href='#'><img src={link} width="20px" alt="..."></img></a>
+                        </div>
+                    </div>
+                 </div>    
+            </div>
+      <div class = "container">
+        <div class = "card">
+          <div class = "image">
+            <img src ={profile1} alt="..."></img>
+          </div>
+          <div class = "content">
+            <h3>WEB DEVELOPER</h3>
+            <p>DIn publishing and graphic design,Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+            <div className='links'>
+            <a href='#'><img src={github} width="20px" alt="..."></img></a>
+            <a href='#'><img src={link} width="20px" alt="..."></img></a>
+            </div>
+          </div>
+        </div>    
       </div>
-      <div class = "content">
-        <h3>WEB DEVELOPER</h3>
-        <p>DIn publishing and graphic design,Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
-        <div className='links'>
-        <a href='#'><img src={github} width="20px" alt="..."></img></a>
-        <a href='#'><img src={link} width="20px" alt="..."></img></a>
+      <div class = "container">
+        <div class = "card">
+          <div class = "image">
+            <img src ={profile1} alt="..."></img>
+          </div>
+          <div class = "content">
+            <h3>WEB DEVELOPER</h3>
+            <p>DIn publishing and graphic design,Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+            <div className='links'>
+            <a href='#'><img src={github} width="20px" alt="..."></img></a>
+            <a href='#'><img src={link} width="20px" alt="..."></img></a>
+            </div>
+          </div>
+        </div>    
+      </div>
+      <div class = "container">
+        <div class = "card">
+          <div class = "image">
+            <img src ={profile1} alt="..."></img>
+          </div>
+          <div class = "content">
+            <h3>WEB DEVELOPER</h3>
+            <p>DIn publishing and graphic design,Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
+            <div className='links'>
+            <a href='#'><img src={github} width="20px" alt="..."></img></a>
+            <a href='#'><img src={link} width="20px" alt="..."></img></a>
+          </div>
         </div>
-      </div>
-    </div>    
-  </div>
-  <div class = "container">
-    <div class = "card">
-      <div class = "image">
-        <img src ={profile1} alt="..."></img>
-      </div>
-      <div class = "content">
-        <h3>WEB DEVELOPER</h3>
-        <p>DIn publishing and graphic design,Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
-        <div className='links'>
-        <a href='#'><img src={github} width="20px" alt="..."></img></a>
-        <a href='#'><img src={link} width="20px" alt="..."></img></a>
-        </div>
-      </div>
-    </div>    
-  </div>
-  <div class = "container">
-    <div class = "card">
-      <div class = "image">
-        <img src ={profile1} alt="..."></img>
-      </div>
-      <div class = "content">
-        <h3>WEB DEVELOPER</h3>
-        <p>DIn publishing and graphic design,Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
-        <div className='links'>
-        <a href='#'><img src={github} width="20px" alt="..."></img></a>
-        <a href='#'><img src={link} width="20px" alt="..."></img></a>
-        </div>
-      </div>
-    </div>    
-  </div>
-  <div class = "container">
-    <div class = "card">
-      <div class = "image">
-        <img src ={profile1} alt="..."></img>
-      </div>
-      <div class = "content">
-        <h3>WEB DEVELOPER</h3>
-        <p>DIn publishing and graphic design,Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
-        <div className='links'>
-        <a href='#'><img src={github} width="20px" alt="..."></img></a>
-        <a href='#'><img src={link} width="20px" alt="..."></img></a>
-        </div>
-      </div>
-    </div>    
+      </div>    
   </div>
     </div>
     

@@ -9,17 +9,19 @@ import Technology from './components/body/technology'
 import Profilecards from './components/team/profilecards';
 import { Contactus} from './containers';
 import './App.css'
+import {Projects} from './containers'
 
 const App = () => {
   return (
     <div className='App'>
-        <div className='gradient_bg'>
+        <div>
           <Navbar />
           <Header />
           <Websites />
           <Technology/>
           <Slider slides={SliderData} />
           <Profilecards/>
+          <Projects />
           <Contactus />
         </div>
     </div>

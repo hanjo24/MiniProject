@@ -1,5 +1,6 @@
 .devlaza_header 
 {
+    height: 100vh;
     display: flex;
 }
 .devlaza_header-content
@@ -111,6 +112,7 @@
 {
     .devlaza_header
     {
+        height: 150vh;
         flex-direction: column;
     }    
     .devlaza_header-content
@@ -121,6 +123,11 @@
 @media (max-width: 650px)
 {
   
+    .devlaza_header
+    {
+        height: 130vh;
+        
+    }    
     .devlaza_header h1
     {
         font-size: 48px;
@@ -149,6 +156,10 @@
 
 @media (max-width: 490px)
 {
+    .devlaza_header 
+    {
+        height: 110vh;
+    }
     .section_padding
     {
         padding: 1rem;

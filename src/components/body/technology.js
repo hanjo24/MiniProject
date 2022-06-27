@@ -15,6 +15,7 @@ const Technology = () => {
   return (
     <div className='technologies'>
         <h1>Technology</h1>
+        <p>Here are some of the Technologies at our disposal!</p>
     <div className='technology-list'>
         <div className='tech'>
             <img src={bootstrap} alt="..."></img>
@@ -46,7 +47,7 @@ const Technology = () => {
         </div>
         <div className='tech'>
             <img src={python} alt="..."></img>
-            <h3>Phython</h3>
+            <h3>Python</h3>
         </div>
         <div className='tech'>
             <img src={sass} alt="..."></img>

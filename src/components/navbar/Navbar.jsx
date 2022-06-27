@@ -1,16 +1,14 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 import logo from '../../image/logo.png';
-import Homepage from '../../Pages/Homepage'
 
 
 
 const Menu = () => (
   <>
   <p><a href='#home'>Home</a></p>
-  <p><a href='#team'>Meet the Team</a></p>
+  <p><a href='#team'>The Team</a></p>
   <p><a href='#projects'>Projects</a></p>
   <p><a href='#contactus'>Contact Us</a></p>
   </>
@@ -21,7 +19,7 @@ const Menu = () => (
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
   return (
-    <div className='devlaza_navbar'>
+    <div className='devlaza_navbar gradient_bg'>
       <div className='devlaza_navbar-links'>
         <div className='devlaza_navbar-links-logo'>
           <img src={logo} alt="logo" />

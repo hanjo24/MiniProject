@@ -1,6 +1,16 @@
+:root {
+    --color-1: #1A374D;
+    --color-2: #406882;
+    --color-3: #6998AB;
+    --color-4: #B1D0E0;
+    --color-white: #fff;
+    --color-black: #000;
+    
+}
+
 .slider-container {
-    background-color: black;
-    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -18,16 +28,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    font-size: 30px;
+    color: var(--color-1)
 }
     
 .slider-data {
     width: 600px;
     text-align: center;
-    color: white;
+    color: var(--color-1);
 }
 
 .slider-data h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.slider-data p {
+    font-size: 20px;
+    text-align: center;
     margin-bottom: 1rem;
 }
   
@@ -36,7 +55,7 @@
     top: 50%;
     right: -200px;
     font-size: 3rem;
-    color: white;
+    color: var(--color-black);
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -55,7 +74,7 @@
     top: 50%;
     left: -200px;
     font-size: 3rem;
-    color: white;
+    color: var(--color-black);
     z-index: 10;
     cursor: pointer;
     user-select: none;

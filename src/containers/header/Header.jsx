@@ -5,7 +5,7 @@ import atom from '../../image/atom.png';
 
 const Header = () => {
   return (
-    <div className='devlaza_header section_padding' id='home'>
+    <div className='devlaza_header section_padding gradient_bg' id='home'>
       <div className='devlaza_header-content'>
         <h1 className='gradient_text'>We build delightful digital experiences</h1>
         <p>Affordable, innovative, timely. With over 15 years of experience in software development and digital marketing, we plan, build and promote new applications so you don’t have to.</p>

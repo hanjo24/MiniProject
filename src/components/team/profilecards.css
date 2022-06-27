@@ -5,6 +5,7 @@
     box-sizing : border-box;
   }
   .our-team{
+    
     text-align: center;
     /* color: white; */
     background-color: white;
@@ -71,7 +72,7 @@
 }
 
   .our-team-title{
-    margin-top: 20px;
+    margin-top: 80px;
     margin-bottom: 20px;
   }
   .description{
@@ -162,6 +163,8 @@
     /* four pillars  */
   .profile-bot{
     /* border-top: rgb(141, 141, 148) dotted 2px; */
+    margin-top: 80px;
+    padding: 40px 0px 100px 0px;
     background-color: #040C18;
     color: var(--color-text);
   }
