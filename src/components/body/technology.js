@@ -17,43 +17,43 @@ const Technology = () => {
         <h1>Technology</h1>
     <div className='technology-list'>
         <div className='tech'>
-            <img src={bootstrap}></img>
+            <img src={bootstrap} alt="..."></img>
             <h3>Bootstrap</h3>
         </div>
         <div className='tech'>
-            <img src={css}></img>
+            <img src={css} alt="..."></img>
             <h3>CSS</h3>
         </div>
         <div className='tech'>
-            <img src={html5}></img>
+            <img src={html5} alt="..."></img>
             <h3>HTML</h3>
         </div>
         <div className='tech'>
-            <img src={javascript}></img>
+            <img src={javascript} alt="..."></img>
             <h3>Javascript</h3>
         </div>
         <div className='tech'>
-            <img src={mysql}></img>
+            <img src={mysql} alt="..."></img>
             <h3>MySql</h3>
         </div>
         <div className='tech'>
-            <img src={nodejs}></img>
+            <img src={nodejs} alt="..."></img>
             <h3>NodeJS</h3>
         </div>
         <div className='tech'>
-            <img src={php}></img>
+            <img src={php} alt="..."></img>
             <h3>PHP</h3>
         </div>
         <div className='tech'>
-            <img src={python}></img>
+            <img src={python} alt="..."></img>
             <h3>Phython</h3>
         </div>
         <div className='tech'>
-            <img src={sass}></img>
+            <img src={sass} alt="..."></img>
             <h3>SASS</h3>
         </div>
         <div className='tech'>
-            <img src={typescript}></img>
+            <img src={typescript} alt="..."></img>
             <h3>TypeScript</h3>
         </div>
         </div>
