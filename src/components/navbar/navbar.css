@@ -1,3 +1,5 @@
+
+
 .devlaza_navbar
 {
     display: flex;
@@ -20,7 +22,7 @@
     width: 250px;
     height: 100px;
 }
-.devlaza_navbar-links_container
+.devlaza_navbar-links_container nav
 {
     display: flex;
     flex-direction: row;

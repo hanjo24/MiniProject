@@ -1,16 +1,30 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 import logo from '../../image/logo.png';
+import Homepage from '../../Pages/Homepage'
+
 
 
 const Menu = () => (
-        <>
-        <p><a href='#home'>Home</a></p>
-        <p><a href='#team'>Meet the Team</a></p>
-        <p><a href='#projects'>Projects</a></p>
-        <p><a href='#contactus'>Contact Us</a></p>
-        </>
+        <Router >
+            <nav>
+              <Link to='/Home'><p>Home</p></Link>
+              <Link to='/team'><p>The Team</p></Link>
+              <Link to='/projects'><p>Projects</p></Link>
+              <Link to='/contactus'><p>Contact Us</p></Link>
+            </nav>
+      
+          <Routes>
+            <Route path='/Home' element={<Homepage />}/>
+            <Route path='/team' />
+            <Route path='/projects' />
+            <Route path='/contactus'/>
+          </Routes>
+
+          
+        </Router>
 )
 
 // BEM - Block Element Modifier
@@ -21,7 +35,7 @@ const Navbar = () => {
     <div className='devlaza_navbar'>
       <div className='devlaza_navbar-links'>
         <div className='devlaza_navbar-links-logo'>
-            <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" />
         </div>
         <div className='devlaza_navbar-links_container'>
         <Menu />
