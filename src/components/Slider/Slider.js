@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { SliderData } from './SliderData';
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+import { BsArrowLeft, BsArrowRight } from 'react-icons/bs';
+
+import './Slider.css';
 
 const Slider = ({ slides }) => {
 
@@ -22,24 +24,30 @@ const Slider = ({ slides }) => {
     }
 
     return (
-        <section className="slider">
-            <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-            {SliderData.map((slide, index) => {
-                return (
-                    <div
-                        className={index === current ? 'slide active' : 'slide'} key={index}
-                    >
-                        {index === current && (
-                            <div className="slider-data">
-                                <h3>{slide.header}</h3>
-                                <p>{slide.content}</p>
-                            </div>
-                        )} 
-                    </div>
-                );
-            })}
-            <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
-        </section>
+        <div className="slider-container">
+            <div className="slider-header">
+                <h1>What clients love about working with us</h1>
+            </div>
+            <section className="slider">
+                <BsArrowLeft className="left-arrow" onClick={prevSlide} />
+                {SliderData.map((slide, index) => {
+                    return (
+                        <div
+                            className={index === current ? 'slide active' : 'slide'} key={index}
+                        >
+                            {index === current && (
+                                <div className="slider-data">
+                                    <h3>{slide.header}</h3>
+                                    <p>{slide.content}</p>
+                                </div>
+                            )} 
+                        </div>
+                    );
+                })}
+                <BsArrowRight className="right-arrow" onClick={nextSlide} />
+            </section>
+        </div>
+        
     )
 }
 

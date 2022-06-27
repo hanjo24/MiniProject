@@ -1,10 +1,43 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 // import './App.css';
 import { Grid, TextField, Button, Card, CardContent, Typography } from '@material-ui/core';
 
 
-function Contactus() {
 
+const Contactus = () => {
+  const retrieveContacts = localStorage.getItem('contactList') ? JSON.parse(localStorage.getItem('contactList')) : [];
+  
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState('');
+  const [contact, setContact] = useState('');
+  const [message, setMessage] = useState('');
+
+  const [allContacts, setAllContacts] = useState(retrieveContacts);
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const data = {
+      firstName:firstName,
+      lastName:lastName,
+      email:email,
+      contact:contact,
+      message:message,
+    };
+    setAllContacts([...allContacts, data]);
+    setFirstName('');
+    setLastName('');
+    setEmail('');
+    setContact('');
+    setMessage('');
+
+    alert(JSON.stringify(data))
+  } 
+
+  useEffect(() => {
+    localStorage.setItem('contactList', JSON.stringify(allContacts));
+  }, [allContacts])
+  
 
   return (
     
@@ -18,22 +51,22 @@ function Contactus() {
             <Typography variant="body2" color="textSecondary" component="p" gutterBottom>
               Fill up the form and our team will get back to you within 24 hours.
           </Typography> 
-            <form>
+            <form onSubmit={(event) => {handleSubmit(event)}}>
               <Grid container spacing={1}>
                 <Grid xs={12} sm={6} item>
-                  <TextField placeholder="Enter first name" label="First Name" variant="outlined" fullWidth required />
+                  <TextField placeholder="Enter first name" label="First Name" variant="outlined" value={firstName} onChange={(e) => setFirstName(e.target.value)} fullWidth required />
                 </Grid>
                 <Grid xs={12} sm={6} item>
-                  <TextField placeholder="Enter last name" label="Last Name" variant="outlined" fullWidth required />
+                  <TextField placeholder="Enter last name" label="Last Name" variant="outlined"  value={lastName} onChange={(e) => setLastName(e.target.value)} fullWidth required />
                 </Grid>
                 <Grid item xs={12}>
-                  <TextField type="email" placeholder="Enter email" label="Email" variant="outlined" fullWidth required />
+                  <TextField type="email" placeholder="Enter email" label="Email" variant="outlined" value={email} onChange={(e) => setEmail(e.target.value)} fullWidth required />
                 </Grid>
                 <Grid item xs={12}>
-                  <TextField type="number" placeholder="Enter phone number" label="Phone" variant="outlined" fullWidth required />
+                  <TextField type="number" placeholder="Enter number" label="Number" variant="outlined" value={contact} onChange={(e) => setContact(e.target.value)}fullWidth required />
                 </Grid>
                 <Grid item xs={12}>
-                  <TextField label="Message" multiline rows={4} placeholder="Type your message here" variant="outlined" fullWidth required />
+                  <TextField label="Message" multiline rows={4} placeholder="Type your message here" variant="outlined" value={message} onChange={(e) => setMessage(e.target.value)}fullWidth required />
                 </Grid>
                 <Grid item xs={12}>
                   <Button type="submit" variant="contained" color="primary" fullWidth>Submit</Button>
