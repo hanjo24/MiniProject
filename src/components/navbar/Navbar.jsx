@@ -8,23 +8,12 @@ import Homepage from '../../Pages/Homepage'
 
 
 const Menu = () => (
-        <Router >
-            <nav>
-              <Link to='/Home'><p>Home</p></Link>
-              <Link to='/team'><p>The Team</p></Link>
-              <Link to='/projects'><p>Projects</p></Link>
-              <Link to='/contactus'><p>Contact Us</p></Link>
-            </nav>
-      
-          <Routes>
-            <Route path='/Home' element={<Homepage />}/>
-            <Route path='/team' />
-            <Route path='/projects' />
-            <Route path='/contactus'/>
-          </Routes>
-
-          
-        </Router>
+  <>
+  <p><a href='#home'>Home</a></p>
+  <p><a href='#team'>Meet the Team</a></p>
+  <p><a href='#projects'>Projects</a></p>
+  <p><a href='#contactus'>Contact Us</a></p>
+  </>
 )
 
 // BEM - Block Element Modifier
