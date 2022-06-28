@@ -6,11 +6,11 @@ const Footer = () => {
   return (
     <footer>
         <div className='upper-footer'>
-            <div>
+            <div className='upper-rigth-side-footer'>
                 <h6>About</h6>
                 <p>Developlaza is a company founded in the philippines by 4 capable website developers</p>
             </div>
-            <div className='upper-left-side'>
+            <div className='upper-left-side-footer'>
                 <h6>Quick links</h6>
                 <ul>
                     <li><a href='#home'>Home</a></li>

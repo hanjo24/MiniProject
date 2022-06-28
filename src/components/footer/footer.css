@@ -4,7 +4,6 @@ footer {
     width: 100%;
     position: absolute;
     color: white;
-    
 }
 
 
@@ -17,13 +16,13 @@ footer {
     align-items: center;
 }
 
-.upper-left-side {
+.upper-left-side-footer {
     height: 50px;
     border-left: 1px solid grey;
     padding: 10px;
 }
 
-.upper-left-side ul {
+.upper-left-side-footer ul {
     list-style: none;
     display:flex;
     gap: 50px;
@@ -42,4 +41,29 @@ footer {
     width: 100%;
     text-align: center;
     padding: 20px 0px 0px 0px;
+}
+
+@media (max-width: 1050px)
+{
+    footer {
+        height: 40%;
+        
+    }
+   .upper-footer{
+     flex-direction: column;
+     width: 100%;
+     border-left: none;  
+   }
+
+   .upper-left-side-footer{
+    border-left: none;
+   }
+   .footer-logo {
+    margin-top: -40px;
+   }
+
+   .lower-footer {
+    position: absolute;
+    bottom: 20px;
+   }
 }
