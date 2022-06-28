@@ -29,7 +29,7 @@ export default function Projects() {
                         component="img"
                         height="140"
                         image={Project1}
-                        alt="green iguana"
+                        alt="website"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
@@ -50,7 +50,7 @@ export default function Projects() {
                         component="img"
                         height="140"
                         image={Project2}
-                        alt="green iguana"
+                        alt="website"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
@@ -71,7 +71,7 @@ export default function Projects() {
                         component="img"
                         height="140"
                         image={Project3}
-                        alt="green iguana"
+                        alt="website"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
@@ -92,7 +92,7 @@ export default function Projects() {
                         component="img"
                         height="140"
                         image={Project4}
-                        alt="green iguana"
+                        alt="website"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
@@ -113,7 +113,7 @@ export default function Projects() {
                         component="img"
                         height="140"
                         image={Project5}
-                        alt="green iguana"
+                        alt="website"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
@@ -134,7 +134,7 @@ export default function Projects() {
                         component="img"
                         height="140"
                         image={Project6}
-                        alt="green iguana"
+                        alt="website"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">

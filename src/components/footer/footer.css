@@ -1,0 +1,45 @@
+footer {
+    background-color: rgb(39, 39, 39);
+    padding: 30px 20px 20px 40px;
+    width: 100%;
+    position: absolute;
+    color: white;
+    
+}
+
+
+.upper-footer {
+    height: 50px;
+    border-left: 1px solid grey;
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    align-items: center;
+}
+
+.upper-left-side {
+    height: 50px;
+    border-left: 1px solid grey;
+    padding: 10px;
+}
+
+.upper-left-side ul {
+    list-style: none;
+    display:flex;
+    gap: 50px;
+
+}
+
+
+.footer-logo img {
+    width: 200px;
+    height: 100px;
+}
+
+.lower-footer {
+    margin-top: 20px;
+    border-top: 1px solid grey;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}

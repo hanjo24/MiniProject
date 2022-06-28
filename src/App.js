@@ -10,6 +10,7 @@ import Profilecards from './components/team/profilecards';
 import { Contactus} from './containers';
 import './App.css'
 import {Projects} from './containers'
+import Footer from './components/footer/Footer'
 
 
 const App = () => {
@@ -24,7 +25,7 @@ const App = () => {
           <Profilecards/>
           <Projects />
           <Contactus />
-          
+          <Footer />
         </div>
     </div>
   )
