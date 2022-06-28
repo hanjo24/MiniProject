@@ -13,7 +13,7 @@
   }
 
   .team-header{
-    height: 90vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -96,11 +96,11 @@
     justify-content : center;
     padding : 30px;  
   }
-  
+
   .container .card {
     position: relative;
     max-width : 300px;
-    height : 300px;  
+    height : 280px;  
     background-color : #fff;
     margin : 30px 10px;
     padding : 20px 15px;
@@ -113,9 +113,13 @@
   }
   /* change if card desc is long or short */
   .container .card:hover {
-    height : 430px; 
+    height : 460px;
   }
   
+  .image img{
+    width: 280px;
+    height: 330px;
+  }
   
   .container .card .image {
     position : relative;
@@ -128,6 +132,7 @@
     box-shadow : 0 5px 20px rgba(0,0,0,0.2);
     z-index : 1;
   }
+  
   
   .container .card .image img {
     max-width : 100%;
@@ -162,18 +167,16 @@
   }
     /* four pillars  */
   .profile-bot{
-    /* border-top: rgb(141, 141, 148) dotted 2px; */
-    margin-top: 80px;
     padding: 40px 0px 100px 0px;
     background-color: #040C18;
-    color: var(--color-text);
+    color: var(--color-4);
   }
-  .our-team-title h1{
+  .pillar-title h1{
     padding: 40px;
+    color: var(--color-white);
+    
   }
-  .pillar-description{
-    padding: 5px;
-  }
+
   .pillars-container{
     max-width: 800px;
     margin: 0 auto;
@@ -190,7 +193,13 @@
 
   .pillar-description{
     text-align: left;
+    padding: 5px;
+    color: var(--color-white);
   }
+  .pillar-description h3{
+    color: var(--color-white)
+  }
+
   .pillars{
     font-size: larger;
   }
