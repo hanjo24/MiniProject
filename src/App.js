@@ -11,6 +11,7 @@ import { Contactus} from './containers';
 import './App.css'
 import {Projects} from './containers'
 
+
 const App = () => {
   return (
     <div className='App'>
@@ -23,6 +24,7 @@ const App = () => {
           <Profilecards/>
           <Projects />
           <Contactus />
+          
         </div>
     </div>
   )

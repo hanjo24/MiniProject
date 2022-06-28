@@ -46,6 +46,6 @@
 
 .tech:hover{
     transform: translateY(-10%);
-    background-color: rgba(78, 79, 80, 0.4);
+    border: 2px solid var(--color-1);
     border-radius: 10px;
 }

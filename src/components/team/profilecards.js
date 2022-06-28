@@ -12,7 +12,7 @@ import bgheader from '../../image/coverphoto.png';
 
 const Profilecards = () => {
   return (
-    <div className='our-team'>
+    <div className='our-team' id='team'>
         <div className='team-header' style={{ backgroundImage: `url(${bgheader})` }}>
             <div className='team-header-desc'>
                 <h1 className='gradient_text'>THE DEVELOPELAZA</h1>

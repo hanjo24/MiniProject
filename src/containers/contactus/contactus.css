@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --color-1: #1A374D;
+    --color-2: #406882;
+    --color-3: #6998AB;
+    --color-4: #B1D0E0;
+    --color-white: #fff;
+    --color-black: #000;
+    
+}
+
+
+.contactus-header {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 20px;
+    color: var(--color-1);
+}
+
+h3 {
+    font-size: 20px;
+    color: var(--color-2);
+}
+
+.App {
+    padding: 50px 0px 100px 0px;
+}
