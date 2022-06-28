@@ -31,7 +31,7 @@ const Contactus = () => {
     setContact('');
     setMessage('');
 
-    alert(JSON.stringify(data))
+    alert("Submitted!")
   } 
 
   useEffect(() => {

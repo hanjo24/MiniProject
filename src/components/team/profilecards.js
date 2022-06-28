@@ -18,7 +18,7 @@ const Profilecards = () => {
     <div className='our-team' id='team'>
         <div className='team-header' style={{ backgroundImage: `url(${bgheader})` }}>
             <div className='team-header-desc'>
-                <h1 className='gradient_text'>THE DEVELOPELAZA</h1>
+                <h1 className='gradient_text'>THE DEVELOPLAZA</h1>
                 <p>We're lead by a team who constantly questions, tinkers, and challenges <br></br>to unlock great creativity around every turn.</p>
             </div>
         </div>
